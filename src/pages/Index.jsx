@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bone, Heart, Paw, Dog } from 'lucide-react';
+import { Bone, Heart, Shield, Dog } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 
@@ -38,7 +38,7 @@ const DogLandingPage = () => {
           <h2 className="text-3xl font-extrabold text-center text-gray-900 mb-8">Why Dogs are Amazing</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <FeatureIcon Icon={Heart} text="Unconditional Love" />
-            <FeatureIcon Icon={Paw} text="Loyal Companions" />
+            <FeatureIcon Icon={Shield} text="Loyal Companions" />
             <FeatureIcon Icon={Bone} text="Playful Nature" />
             <FeatureIcon Icon={Dog} text="Diverse Breeds" />
           </div>
